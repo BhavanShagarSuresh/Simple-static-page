@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background-color: black;
+}
+.container{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    width: 100%;
+}
+.logoo{
+    height: 170px;
+    width: 200px;
+}
+.navbar{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+a:hover{
+    color: #00BF63;
+}
+
+.heading1{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    padding-left: 150px;
+    padding-bottom: 55px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.heading2{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    padding-left: 150px;
+    padding-left: 150px;
+    padding-bottom: 75px;
+    font-weight: 100;
+    font-size: 20px;
+    
+}
+.align{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    padding-left: 100px;
+    
+    
+}
+button{
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+.bg{
+    background-color: #00BF63;
+    color: white;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+.bg:hover{
+    background-color: rgb(72, 171, 207);
+    color: rgb(0, 0, 0);
+}
+.bg1{
+    background-color: #313333;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+}
